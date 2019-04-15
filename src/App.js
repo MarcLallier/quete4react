@@ -3,6 +3,7 @@ import './App.css';
 import Mytravel from "./Mytravel"
 import Travels5destination from './Travels5destination';
 import Form from './Form';
+import FetchSimpson from './FetchSimpson';
 
 
 class App extends Component {
@@ -24,6 +25,7 @@ class App extends Component {
       
       <Travels5destination />
       <Form />
+      <FetchSimpson />
       
       </div>
     );

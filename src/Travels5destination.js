@@ -63,7 +63,7 @@ class Travels5destination extends React.Component{
       <div className="container">
           
         <div className ="pressButton">
-          <button className={effect}  onClick={this.blinkFunction}> Press it</button>
+          <button className={effect}  onClick={this.blinkFunction}> Press it for Quest Number 3</button>
         </div>
         
         {trips.map(trip => (
